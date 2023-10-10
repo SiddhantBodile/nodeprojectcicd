@@ -1,10 +1,6 @@
 # nodeprojectcicd
 # DemoNode: Node.js CI/CD Starter
 
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/yourusername/demonode/CI-CD-Pipeline?label=CI/CD%20Pipeline&style=flat-square)
-![GitHub issues](https://img.shields.io/github/issues/yourusername/demonode?style=flat-square)
-![GitHub stars](https://img.shields.io/github/stars/yourusername/demonode?style=flat-square)
-
 A simple Node.js project to demonstrate Continuous Integration and Continuous Deployment (CI/CD) using AWS.
 
 ---
