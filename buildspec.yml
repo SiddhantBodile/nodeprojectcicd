@@ -1,0 +1,21 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      nodejs: 14  # Use the Node.js version you need
+  pre_build:
+    commands:
+      - npm install  # Install project dependencies
+  build:
+    commands:
+      - pm2 stop my-nodejs-app || true  # Stop the app if it's running
+      - pm2 delete my-nodejs-app || true  # Delete the app from PM2 if it exists
+      - pm2 start app.js --name my-nodejs-app  # Start the app with PM2
+  post_build:
+    commands:
+      - pm2 save  # Save the PM2 process list for automatic startup
+artifacts:
+  files:
+    - '**/*'  # Include all files in the build artifacts
+  discard-paths: yes
