@@ -4,4 +4,4 @@
 cd /var/www/nodeproject
 
 # Install Node.js dependencies
-npm install
+/usr/bin/npm install
