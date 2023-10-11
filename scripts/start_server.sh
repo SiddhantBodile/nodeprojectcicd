@@ -7,4 +7,4 @@ cd /var/www/nodeproject/
 npm install pm2
 
 # Start your Node.js application using pm2
-./node_modules/.bin/pm2 start app.js --name nodejs-app
+./node_modules/.bin/pm2 start app.js --name nodejs-app -f
