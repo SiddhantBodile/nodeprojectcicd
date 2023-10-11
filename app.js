@@ -8,19 +8,21 @@ app.get('/', (req, res) => {
     <head>
       <style>
         body {
-          background-color: #007BFF; /* Blue background color */
-          color: #fff; /* Text color */
-          font-family: Arial, sans-serif;
+          background-color: #000; /* Black background color */
+          color: #fff; /* White text color */
+          font-family: 'Arial', sans-serif;
         }
         .container {
           text-align: center;
-          padding: 100px;
+          padding: 10%;
         }
         h1 {
           font-size: 3rem;
+          font-family: 'Courier New', monospace;
         }
         p {
           font-size: 1.5rem;
+          font-family: 'Courier New', monospace;
         }
       </style>
     </head>
