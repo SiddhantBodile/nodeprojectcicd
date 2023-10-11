@@ -4,7 +4,7 @@
 cd /var/www/nodeproject/
 
 # Install pm2 globally
-npm install -g pm2
+npm install pm2
 
 # Start your Node.js application using pm2
-pm2 start app.js --name nodejs-app
+./node_modules/.bin/pm2 start app.js --name nodejs-app
