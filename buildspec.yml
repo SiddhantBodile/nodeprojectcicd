@@ -9,9 +9,9 @@ phases:
 
   pre_build:
     commands:
-      - pm2 stop my-nodejs-app || true
-      - pm2 delete my-nodejs-app || true
-      - pm2 start app.js --name my-nodejs-app
+      - pm2 stop nodejs-app || true
+      - pm2 delete nodejs-app || true
+      - pm2 start app.js --name nodejs-app
 
   build:
     commands:
