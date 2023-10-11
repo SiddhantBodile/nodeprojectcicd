@@ -8,7 +8,7 @@ app.get('/', (req, res) => {
     <head>
       <style>
         body {
-          background-color: #333; /* Dark background color */
+          background-color: #007BFF; /* Blue background color */
           color: #fff; /* Text color */
           font-family: Arial, sans-serif;
         }
@@ -19,12 +19,24 @@ app.get('/', (req, res) => {
         h1 {
           font-size: 3rem;
         }
+        p {
+          font-size: 1.5rem;
+        }
       </style>
     </head>
     <body>
       <div class="container">
-        <h1>Welcome to Siddhant Bodile's DevOps Engineer Page</h1>
-        <p>This is an attractive page with custom styling.</p>
+        <h1>Welcome to Siddhant Bodile's DevOps Learning Page</h1>
+        <p>DevOps is a set of practices that combines software development (Dev) and IT operations (Ops). It aims to shorten the software development life cycle and provide continuous delivery with high software quality. Basic DevOps technologies include:</p>
+        <ul>
+          <li>Version Control (e.g., Git)</li>
+          <li>Continuous Integration (CI) and Continuous Deployment (CD)</li>
+          <li>Containerization (e.g., Docker)</li>
+          <li>Orchestration (e.g., Kubernetes)</li>
+          <li>Infrastructure as Code (IaC)</li>
+          <li>Automation and Monitoring</li>
+        </ul>
+        <p>Start your DevOps learning journey now!</p>
       </div>
     </body>
     </html>
